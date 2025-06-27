@@ -16,14 +16,14 @@ const Experience = () => {
         <span className="section__subtitle">What I work as</span>
 
         <div className="exp__container container grid">
-            <div className="exp__content">
+           {/*  <div className="exp__content">
                 <div>
                     <i className="uil uil-web-grid exp__icon"></i>
                     <h3 className="exp__title">Software <br /> Engineer </h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">Edatis KPG</span>
+                    <span className="exp__comp">A2SV</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -99,7 +99,7 @@ const Experience = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="exp__content">
                 <div>
                     <i className="uil uil-arrow exp__icon"></i>
@@ -107,7 +107,7 @@ const Experience = () => {
                 </div>
 
                 <div>
-                    <span className="exp__comp">Saheelha</span>
+                    <span className="exp__comp">A2SV</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(3)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -116,20 +116,20 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Developer Remote <br /> Sep'20 - Feb'22</h3>
-                        <p className="exp__modal-description">Worked at Saheelha as Software mobile developer for 18 months.
+                        <h3 className="exp__modal-title">Software Developer <br /> Sep'23 - Feb'25</h3>
+                        <p className="exp__modal-description">Worked at A2SV as Software developer for 18 months.
                             Providing quality work to clients and company.
                         </p>
 
                         <ul className="exp__modal-experiences grid">
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I developed the User Mobile Interfaces.</p>
+                                <p className="exp__modal-info">I developed the User Interfaces.</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Mobile App Development.</p>
+                                <p className="exp__modal-info">Web App Development.</p>
                             </li>
 
                             <li className="exp__modal-experience">

@@ -35,7 +35,7 @@ const Works = () => {
 
     return (
         <div>
-            <div className="work__filters">
+{/*             <div className="work__filters">
                 {projectsNav.map((item, index) => (
                     <span 
                         onClick={(e) => handleClick(e, index)} 
@@ -45,7 +45,7 @@ const Works = () => {
                         {item.name}
                     </span>
                 ))}
-            </div>
+            </div> */}
 
             <div className="work__container container grid">
                 {currentProjects.map((item) => (

@@ -9,7 +9,7 @@ import Project8 from '../../src/assets/Project8.png';
 import Project9 from '../../src/assets/Project9.png';
 import Project10 from '../../src/assets/Project10.png';
 import Project11 from '../../src/assets/Project11.png';
-import Project12 from '../../src/assets/Project12.png';
+import Project12 from '../../src/assets/Project12.jfif';
 import Project13 from '../../src/assets/Project13.png';
 import Project14 from '../../src/assets/Project14.png';
 import Project15 from '../../src/assets/Project15.png';
@@ -43,40 +43,40 @@ export const projectsData = [
 	{
 		id: 1,
 		image: Project1,
-		title: 'Node.js API with PostgreSQL',
+		title: 'SIRA',
 		category: 'API',
-		demoUrl: 'https://github.com/JawherKl/node-api-postgres',
-		sourceUrl: 'https://github.com/JawherKl/node-api-postgres',
+		demoUrl: 'https://github.com/ashenafitsegaye123/Sira.git',
+		sourceUrl: 'https://github.com/ashenafitsegaye123/Sira.git',
 		status: 'completed',
 	},
 	{
 		id: 2,
 		image: Project5,
-		title: 'API Design',
+		title: 'Hotel Management System',
 		category: 'API',
-		demoUrl: 'https://github.com/JawherKl/api-design',
-		sourceUrl: 'https://github.com/JawherKl/api-design',
+		demoUrl: 'https://github.com/ashenafitsegaye123/Hotel-Management-System.git',
+		sourceUrl: 'https://github.com/ashenafitsegaye123/Hotel-Management-System.git',
 		status: 'in-progress',
 	},
 	{
 		id: 3,
 		image: Project11,
-		title: 'GraphQL Node.js E-commerce',
+		title: 'Cryptographic Web Application',
 		category: 'API',
-		demoUrl: 'https://github.com/JawherKl/graphql-nodejs-ecom',
-		sourceUrl: 'https://github.com/JawherKl/graphql-nodejs-ecom',
+		demoUrl: 'https://github.com/ashenafitsegaye123/Cryptographic-Web-Application-Report.git',
+		sourceUrl: 'https://github.com/ashenafitsegaye123/Cryptographic-Web-Application-Report.git',
 		status: 'completed',
 	},
 	{
 		id: 4,
 		image: Project12,
-		title: 'User Caching App',
+		title: 'Crypto Currency Prediction report',
 		category: 'API',
-		demoUrl: 'https://github.com/JawherKl/user-caching-app',
-		sourceUrl: 'https://github.com/JawherKl/user-caching-app',
+		demoUrl: 'https://drive.google.com/file/d/1CFZqoVClYwq03kat5cyjgYxTxtqipGoQ/view?usp=drive_link',
+		sourceUrl: 'https://drive.google.com/file/d/1CFZqoVClYwq03kat5cyjgYxTxtqipGoQ/view?usp=drive_link',
 		status: 'completed',
 	},
-	{
+	/* {
 		id: 5,
 		image: Project13,
 		title: 'Go User Caching',
@@ -386,7 +386,7 @@ export const projectsData = [
 		demoUrl: 'https://github.com/JawherKl/typescript-advanced-features',
 		sourceUrl: 'https://github.com/JawherKl/typescript-advanced-features',
 		status: 'completed',
-	},
+	}, */
 ];
 
 export const projectsNav = [

@@ -35,18 +35,18 @@ const WorksItems = ({ item }) => {
 					}
 					onMouseLeave={() => setShowTooltip(false)}
 				>
-					<i className='bx bx-globe work__button-icon' /> Website
+					<i className='bx bx-globe work__button-icon' /> Github
 				</a>
 				{showTooltip && item.status === 'development' && (
 					<div className='work__tooltip'>Under Development</div>
 				)}
-				<a
+		{/* 		<a
 					href='#'
 					className='work__button'
 					onClick={handleSourceClick}
 				>
 					<i className='bx bxl-github work__button-icon' /> Source
-				</a>
+				</a> */}
 				
 			</div>
 		</div>

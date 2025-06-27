@@ -12,12 +12,12 @@ const About = () => {
         <span className="section__subtitle">My Intoduction</span>
 
         <div className="about__container container grid">
-          <img src={AboutImg} alt="" className="about__img" />
+          {/* <img src={AboutImg} alt="" className="about__img" /> */}
 
           <div className="about__data">
             <Info />
 
-            <p className="about__description">Software Engineer, I create web pages with UI/UX user interface, I create web pages with the skill set including Frontend and Backend Part with many framework, I have the tools to bring any website or mobile app to life.</p>
+            <p className="about__description">Computer Engineer, I create web pages with UI/UX user interface, I create web pages with the skill set including Frontend and Backend Part with many framework, I have the tools to bring any website or mobile app to life.</p>
 
             <a download="" href={CV} className="button button--flex">Download CV 
               <svg
