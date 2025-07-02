@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
         <div className="footer__container container">
-            <h1 className="footer__title">&lt;Jawher Kallel/&gt;</h1>
+            <h1 className="footer__title">&lt;Ashenafi Tsegaye/&gt;</h1>
 
             <ul className="footer__list">
                 <li>
@@ -23,27 +23,27 @@ const Footer = () => {
             </ul>
 
             <div className="footer__social">
-                <a href="https://www.instagram.com/jawher_kallel/" className="footer__social-link" target="_blank">
+                <a href="https://www.instagram.com/ashenafitsegaye_/" className="footer__social-link" target="_blank">
                     <i className="bx bxl-instagram"></i>
                 </a>
 
-                <a href="https://github.com/JawherKl" className="footer__social-link" target="_blank">
+                <a href="https://github.com/ashenafitsegaye123" className="footer__social-link" target="_blank">
                     <i className="bx bxl-github"></i>
                 </a>
 
-                <a href="https://x.com/kallel_jawher" className="footer__social-link" target="_blank">
+                <a href="https://x.com/Ashut94233939" className="footer__social-link" target="_blank">
                     <i className="bx bxl-twitter"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/jawher-kallel" className="footer__social-link" target="_blank">
+                <a href="https://in.linkedin.com/in/ashenafi-tsegaye-34a716279" className="footer__social-link" target="_blank">
                     <i className="bx bxl-linkedin"></i>
                 </a>
 
-                <a href="https://github.com/jawherr" className="footer__social-link" target="_blank">
+               {/*  <a href="https://github.com/" className="footer__social-link" target="_blank">
                     <i className="bx bxl-github"></i>
-                </a>
+                </a> */}
             </div>
 
-            <span className="footer__copy">&#169; 2025 JK. All rigths reserved</span>
+            <span className="footer__copy">&#169; 2025 AT. All rigths reserved</span>
         </div>
     </footer>
   )

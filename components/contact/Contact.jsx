@@ -6,14 +6,23 @@ import './contact.css';
 const Contact = () => {
     const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+const sendEmail = (e) => {
+  e.preventDefault();
 
-        //emailjs.sendForm('service_dyo6led', 'template_3iv5y3l', form.current, {
-        //    publicKey: 'tsBnrYgs7KU7KNgA8',
-        //})
-        e.target.reset()
-  };
+  emailjs.sendForm('service_dyo6led', 'template_3iv5y3l', form.current, {
+    publicKey: 'tsBnrYgs7KU7KNgA8',
+  })
+  .then((result) => {
+    console.log('Email sent successfully:', result.text);
+    alert('Message sent!');
+    e.target.reset();
+  })
+  .catch((error) => {
+    console.error('Email sending error:', error);
+    alert('Failed to send message.');
+  });
+};
+
 
   return (
     <section className="contact section" id="contact">

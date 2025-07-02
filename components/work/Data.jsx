@@ -70,9 +70,9 @@ export const projectsData = [
 	{
 		id: 4,
 		image: Project12,
-		title: 'Crypto Currency Prediction report',
+		title: 'Crypto Currency Prediction using LTSM',
 		category: 'API',
-		demoUrl: 'https://drive.google.com/file/d/1CFZqoVClYwq03kat5cyjgYxTxtqipGoQ/view?usp=drive_link',
+		demoUrl: 'https://github.com/ashenafitsegaye123/crypto-currency-prediction.git',
 		sourceUrl: 'https://drive.google.com/file/d/1CFZqoVClYwq03kat5cyjgYxTxtqipGoQ/view?usp=drive_link',
 		status: 'completed',
 	},
