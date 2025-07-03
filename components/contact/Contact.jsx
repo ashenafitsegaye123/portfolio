@@ -9,8 +9,8 @@ const Contact = () => {
 const sendEmail = (e) => {
   e.preventDefault();
 
-  emailjs.sendForm('service_dyo6led', 'template_3iv5y3l', form.current, {
-    publicKey: 'tsBnrYgs7KU7KNgA8',
+  emailjs.sendForm('service_0nb8nf8', 'template_ydx352e', form.current, {
+    publicKey: '6bwHRcvPzjDM0A2rL',
   })
   .then((result) => {
     console.log('Email sent successfully:', result.text);
@@ -42,7 +42,7 @@ const sendEmail = (e) => {
                         <span className="contact__card-data">ashenafitsegish@gmail.com</span> OR
                         <span className="contact__card-data">ashenafitsegaye041@gmail.com</span>
 
-                        <a href="mailto:kallel.jawher@gmail.com" className="contact__button">Write Me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="mailto:ashenafitsegish@gmail.com" className="contact__button">Write Me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -51,7 +51,10 @@ const sendEmail = (e) => {
                         <h3 className="contact__card-title">WhatsApp</h3>
                         <span className="contact__card-data">(+251) 967723902</span>
 
-                        <a href="https://api.whatsapp.com/send?phone=27751496&text=Hello, I would like to connect with you!" className="contact__button">Write Me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=251967723902&text=Hello, I would like to connect with you!" className="contact__button">
+  Write Me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+</a>
+
                     </div>
                 </div>
             </div>
