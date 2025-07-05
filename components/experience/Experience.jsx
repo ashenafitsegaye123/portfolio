@@ -16,14 +16,15 @@ const Experience = () => {
         <span className="section__subtitle">What I work as</span>
 
         <div className="exp__container container grid">
-           {/*  <div className="exp__content">
+
+  <div className="exp__content">
                 <div>
                     <i className="uil uil-web-grid exp__icon"></i>
                     <h3 className="exp__title">Software <br /> Engineer </h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">A2SV</span>
+                    <span className="exp__comp">Addis Ababa University Ai And Robotics Club</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -32,41 +33,39 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Engineer <br /> Dec'23 - Currently Working 🧑🏻‍💻</h3>
-                        <p className="exp__modal-description">Working currently as a Software Engineer for full-time at Edatis KPG.
-                            Collaborating with an international team for the design and development of
-                            web applications.
+                        <h3 className="exp__modal-title">Software Engineer <br />  Sep'24 - Feb'25</h3>
+                        <p className="exp__modal-description">Worked at Addis Ababa University Ai And Robotics Club as Software Engineer programming Robots
                         </p>
 
                         <ul className="exp__modal-experiences grid">
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Web Page Development.</p>
+                                <p className="exp__modal-info">I Wrote Control Software.</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I create Frontend UI Interfaces With Angular.</p>
+                                <p className="exp__modal-info">Integrate Sensors.</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I create Backend API Interactions With Symfony.</p>
+                                <p className="exp__modal-info">Program Navigation & Path Planning.</p>
                             </li>
 
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> 
 
-            <div className="exp__content">
+     <div className="exp__content">
                 <div>
                     <i className="uil uil-arrow exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer</h3>
+                    <h3 className="exp__title">African Robotics <br /> Championship</h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">Neocortex</span>
+                    <span className="exp__comp">Won African Robotics Championship</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -75,39 +74,39 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Developer Intern <br /> Feb'23 - Sep'23</h3>
-                        <p className="exp__modal-description">Worked at Neocortex as Intern for 8 months.
-                            Providing quality work to clients and company.
+                        <h3 className="exp__modal-title">Software Engineer <br /> Jan'25 - Feb'25</h3>
+                        <p className="exp__modal-description">Won Three Awards Excellence Award, Robot Skills Champion, Tournament Champion
                         </p>
 
                         <ul className="exp__modal-experiences grid">
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I developed the User Interfaces.</p>
+                                <p className="exp__modal-info">I Wrote Control Software.</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Web Page Development.</p>
+                                <p className="exp__modal-info">Integrate Sensors.</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Contributed to improving employee satisfaction.</p>
+                                <p className="exp__modal-info">Program Navigation & Path Planning.</p>
                             </li>
 
                         </ul>
                     </div>
                 </div>
-            </div> */}
-            <div className="exp__content">
+            </div>  
+
+                        <div className="exp__content">
                 <div>
                     <i className="uil uil-arrow exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer</h3>
+                    <h3 className="exp__title">Aritificial Intelligence <br /> ENGINEER </h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">A2SV</span>
+                    <span className="exp__comp">Trained Ai Models For Crypto Currency Prediction At Addis Ababa University </span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(3)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -116,25 +115,24 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Developer <br /> Sep'23 - Feb'25</h3>
-                        <p className="exp__modal-description">Worked at A2SV as Software developer for 18 months.
-                            Providing quality work to clients and company.
+                        <h3 className="exp__modal-title">AI Engineer <br /> Sep'24 - JAN'25</h3>
+                        <p className="exp__modal-description">trained different models using google collab using Python
                         </p>
 
                         <ul className="exp__modal-experiences grid">
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I developed the User Interfaces.</p>
+                                <p className="exp__modal-info">Develop Machine Learning Models.</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Web App Development.</p>
+                                <p className="exp__modal-info">Built a Convolutional Neural Network using TensorFlow .</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Backend Intercation API Development.</p>
+                                <p className="exp__modal-info">Used Python, NumPy, Pandas, and Matplotlib for data handling and visualization.</p>
                             </li>
 
                         </ul>

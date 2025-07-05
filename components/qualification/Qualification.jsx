@@ -19,7 +19,7 @@ const Qualification = () => {
                 <div className="qualification__content">
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Engineering Degree in Computer engineering 🎓</h3>
+                            <h3 className="qualification__title">Engineering Degree in Electrical And Computer engineering 🎓</h3>
                             <span className="qualification__subtitle">Addis Ababa University</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i> 2021 - 2026
@@ -39,7 +39,13 @@ const Qualification = () => {
                             <span className="qualification__round"></span>
                             <span className="qualification__line"></span>
                         </div>
-
+                        <div>
+                            <h3 className="qualification__title">Aritificial Intelligence Using Python Programming and Google Colab </h3>
+                            <span className="qualification__subtitle">Addis Ababa University </span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i> sep,23 - feb,24
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
