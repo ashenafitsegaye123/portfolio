@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { useState, useEffect } from 'react';
+/* import React, { useState, useEffect } from 'react';
 import './testimonial.css';
 import { Data } from './Data';
 
@@ -44,4 +44,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Testimonials; */
