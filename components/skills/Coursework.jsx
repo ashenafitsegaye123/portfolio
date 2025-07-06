@@ -1,7 +1,7 @@
 const Coursework = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Coursework & Tools</h3>
+        <h3 className="skills__title">Backend & Tools</h3>
 
         <div className="skills__box">
             <div className="skills__group">
